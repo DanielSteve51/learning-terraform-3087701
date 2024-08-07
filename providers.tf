@@ -1,11 +1,11 @@
 terraform {
   required_providers {
     aws = {
-      source  = "registry.terraform.io/hashicorp/aws"
+      source  = "hashicorp/aws"
     }
   }
 }
 
 provider "aws" {
-  region  = "us-west-2"
+  region  = "ap-south-1"
 }
