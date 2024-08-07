@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     aws = {
-      source  = "egistry.terraform.io/hashicorp/aws"
+      source  = "registry.terraform.io/hashicorp/aws"
     }
   }
 }
